@@ -1,0 +1,10 @@
+*.txt
+*.swp
+*.class
+*.pdf
+.DS_Store
+.svn/
+arffs/
+corpus/
+models/
+
