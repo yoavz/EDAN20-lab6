@@ -52,3 +52,19 @@ Labeled   attachment score: 3421 / 5021 * 100 = 68.13 %
 Unlabeled attachment score: 4048 / 5021 * 100 = 80.62 %
 Label accuracy score:       3551 / 5021 * 100 = 70.72 %
 ```
+
+## Model 3 - Unlabeled
+```bash
+Labeled   attachment score: 23 / 5021 * 100 = 0.34 %
+Unlabeled attachment score: 4071 / 5021 * 100 = 81.10 %
+Label accuracy score:       23 / 5021 * 100 = 0.34 %
+```
+
+## Model 3 - Labeled
+```bash
+Labeled   attachment score: 3421 / 5021 * 100 = 68.15 %
+Unlabeled attachment score: 4048 / 5021 * 100 = 80.65 %
+Label accuracy score:       3551 / 5021 * 100 = 70.77 %
+```
+
+As can be expected, the most complex models for both unlabeled and labeled resulted in the best accuracy scores. Our best unlabeled accuracy score was **80.65%**, which is not too far off from the best score at CoNLL-X, **86.60%**. For labeled accuracy, our best score was **68.15%**, while the best score at CoNLL-X was **86.70%**. It is likely possible to achieve a better labeled attachment score with a model including features optimized for labeled analysis, such as the previous actions dependency relation. 
